@@ -1,0 +1,147 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  color: #444;
+}
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem;
+}
+img{
+  width: 200px;
+}
+input{
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  height: 30px;
+  width: 200px;
+}
+button{
+  color: white;
+  background-color: #1E90FF;
+  height: 35px;
+  width: 150px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+main{
+  padding: 3rem 0;
+}
+.description{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 3rem 0 4rem 0;
+  background-color: #f7f7f7;
+  flex-direction: column;
+}
+.title{
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 2rem 0;
+}
+.subtitle{
+  margin: 1rem 0;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+.button{
+  display: flex;
+  flex-direction: row;
+  margin-top: 2%;
+}
+.button .programador{
+  width: 100%;
+  margin-right: 5%;
+}
+.button .empresa{
+  width: 100%;
+  background-color: #DCDCDC;
+  color: black;
+}
+.languages{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  font-size: 200%;
+}
+.languageButtons{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 3rem;
+}
+.languageButtons .ruby{
+  height: 120px;
+  width: 150px;
+  background-color: red;
+  margin-left: 5%;
+}
+.languageButtons .javascript{
+  height: 120px;
+  width: 150px;
+  margin-left: 5%;
+}
+.languageButtons .elixir{
+  height: 120px;
+  width: 150px;
+  background-color: purple;
+  margin-left: 5%;
+}
+.languageButtons .python{
+  height: 120px;
+  width: 150px;
+  margin-left: 5%;
+  background-color: orange;
+}
+.languageButtons .go{
+  height: 120px;
+  width: 150px;
+  margin-left: 5%;
+  background-color: green;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+.photosTeam{
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+.imgTeam{
+  width: 100px;
+  border-radius: 50px;
+  margin-left: 50px;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #3788bf;
+  padding: 2rem 0;
+}
+.links{
+  padding: 2rem 0;
+}
+.links a{
+  margin-left: 50px;
+  color: white;
+}
